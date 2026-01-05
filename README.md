@@ -9,8 +9,24 @@
 </p>
 </div>
 
-## Overview
-Existing benchmarks mainly focus on static or single-scene settings and do not fully capture scenarios where multiple speakers, unfolding events, and heterogeneous audio sources interact. To address these challenges and improve the ability of chinese audio reasoning, we introduce CMDAR, a benchmark for evaluating models on complex, multi-scene, and dynamically evolving audio reasoning tasks. CMDAR comprises 3,000 carefully curated question–answer pairs linked to diverse audio clips, covering five categories of complex reasoning and spanning three question types.
+
+## 🎯Overview
+We introduce **CMDAR**, a chinese benchmark for evaluating models on complex, multi-scene, and dynamically evolving audio reasoning tasks. CMDAR comprises 3,000 carefully curated question–answer pairs linked to diverse audio clips, covering five categories of complex reasoning and spanning three question types. We benchmark 26 state-of-the-art audio language models on CMDAR and observe that they exhibit limitations in complex reasoning tasks. In CMDAR-main, Qwen2.5-Omni (open-source) achieves 76.67\% accuracy, whereas GPT-4o Audio (closed-source) reaches 68.47\%. However, GPT-4o Audio substantially outperforms Qwen2.5-Omni on the more challenging multiple-choice with multiple audios and open-ended tasks. And we provide detail analysis corresponding suggestions for the future development of large audio language models (LALMs).
+| | Mixed audio | Multiple audio | Open ended | Multi-scene within One audio | Chinese | Instruct following |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| AudioBench | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| AIR-Bench | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| MMAU | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| MMAU-pro | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| MMAR | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **CMDAR(Ours)** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+## 🏁 Evaluation
+
+## 🤖 Leaderboard
+
+
+
 
 ## To-Do List
 - [x] Release the CMDAR paper.
