@@ -51,7 +51,7 @@ if __name__ == "__main__":
             no_pred_count += 1
             continue
 
-        _prediction = sample[output_key]
+        _prediction = sample[output_key][0]
         _answer = sample['answer']
         choices = sample['chosens']
         task = sample['category']
