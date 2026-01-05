@@ -4,7 +4,7 @@
 
 <div align="center">
 <p align="center">
-    📖<a href="https://github.com/ModalMinds/MM-EUREKA/blob/qwen/MM_EUREKA_Tech_Report.pdf">Paper</a> |
+    📖<a href="https://arxiv.org/abs/2509.22461">Paper</a> |
   🤗<a href="https://huggingface.co/datasets/LLLLuckyer/CMDAR">CMDAR Benchmark</a> |
 </p>
 </div>
