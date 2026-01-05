@@ -26,15 +26,15 @@ We introduce **CMDAR**, a chinese benchmark for evaluating models on complex, mu
 ## 🏁 Evaluation
 In this section, we introduce the evaluation methods for CMDAR. In order to maintain fairness and consistency, we adopt different evaluation methods for different question types.
 
-**CMDAR-main**
+- for CMDAR-main
 ```
 python ./eval.py --input YOUR_RESULT_JSON 
 ```
-**CMDAR-multi**
+- for CMDAR-multi
 ```
 python ./eval_new.py --input YOUR_RESULT_JSON 
 ```
-**CMDAR-open**
+- for CMDAR-open
 ```
 python ./score_api.py 
 python ./eval.py 
