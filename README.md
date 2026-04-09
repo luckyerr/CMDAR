@@ -83,12 +83,9 @@ Results on the CMDAR-main benchmark for both audio language models and cascaded 
 
 ## 📜 Citation
 ```
-@misc{li2026cmdarchinesemultiscenedynamic,
-      title={CMDAR: A Chinese Multi-scene Dynamic Audio Reasoning Benchmark with Diverse Challenges}, 
-      author={Hui Li and Changhao Jiang and Hongyu Wang and Ming Zhang and Jiajun Sun and Zhixiong Yang and Yifei Cao and Shihan Dou and Xiaoran Fan and Baoyu Fan and Tao Ji and Tao Gui and Qi Zhang and Xuanjing Huang},
-      year={2026},
-      eprint={2509.22461},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2509.22461}, 
+@article{li2025mdar,
+  title={MDAR: A Multi-scene Dynamic Audio Reasoning Benchmark},
+  author={Li, Hui and Jiang, Changhao and Wang, Hongyu and Zhang, Ming and Sun, Jiajun and Yang, Zhixiong and Cao, Yifei and Dou, Shihan and Fan, Xiaoran and Fan, Baoyu and others},
+  journal={arXiv preprint arXiv:2509.22461},
+  year={2025}
 }
